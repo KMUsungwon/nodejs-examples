@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const Board = require('./board');
 const router = require('./router')(app, Board)
 
-const DB_ADDRESS = "mongodb+srv://sungwon:sung980327@cluster0.6y3np.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const DB_ADDRESS = "mongodb+srv://<userID>:<password>@cluster0.6y3np.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 let mongooseOption = {
     useNewUrlParser: true,

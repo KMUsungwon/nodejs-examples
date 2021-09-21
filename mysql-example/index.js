@@ -5,8 +5,8 @@ const app = express();
 const conn = {
     host: 'localhost',
     port: '3306',
-    user: 'root',
-    password: 'sung980327',
+    user: 'username',
+    password: 'userPw',
     database: 'kleague', // your database to use
 }
 
